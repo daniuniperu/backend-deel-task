@@ -1,0 +1,65 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.job-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.job-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.job-item:last-child {
+    border-bottom: none;
+}
